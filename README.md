@@ -1,3 +1,3 @@
-# Gunadarma-Semester-5-Informatika
+# Gunadarma-LEPKOM
 
-### Segala macam file praktikum & kuliah semester 5 by Ali Akbar Said
+### Segala macam file LEPKOM by Ali Akbar Said

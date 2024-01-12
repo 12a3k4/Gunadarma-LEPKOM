@@ -1,3 +1,3 @@
 # SQL-Server-for-Intermediate-Lepkom-Ujian-
 
-### Ujian Praktek SQL Server Intermediate LEPKOM
+### Ujian Praktek & Activity SQL Server Intermediate LEPKOM

@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>UJIAN 3: Attempt review</title>
+    <link rel="shortcut icon" href="https://kursusvmlepkom.gunadarma.ac.id/theme/image.php/boost/theme/1650446552/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, UJIAN 3: Attempt review" />
+<link rel="stylesheet" type="text/css" href="https://kursusvmlepkom.gunadarma.ac.id/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://kursusvmlepkom.gunadarma.ac.id/theme/styles.php/boost/1650446552_1/all" />
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/kursusvmlepkom.gunadarma.ac.id","sesskey":"ELOcwqSeCt","themerev":"1650446552","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1650446552","admin":"admin","svgicons":true,"usertimezone":"Asia\/Jakarta","contextid":324977};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/theme\/yui_combo.php?m\/1650446552\/","combine":true,"comboBase":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/theme\/yui_combo.php?","ext":false,"root":"m\/1650446552\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-beautify":{},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1650446552\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/lib\/javascript.php\/1650446552\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/lib\/javascript.php\/1650446552\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.8\/MathJax.js?delayStartupUntil=configured"},"core_question_flags":{"name":"core_question_flags","fullpath":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/lib\/javascript.php\/1650446552\/question\/flags.js","requires":["base","dom","event-delegate","io-base"]},"core_question_engine":{"name":"core_question_engine","fullpath":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/lib\/javascript.php\/1650446552\/question\/qengine.js","requires":["node","event"]},"mod_quiz":{"name":"mod_quiz","fullpath":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/lib\/javascript.php\/1650446552\/mod\/quiz\/module.js","requires":["base","dom","event-delegate","event-key","core_question_engine","moodle-core-formchangechecker"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<style>
+  .forgetpass {display: none;}
+</style>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ec3a5a78ee2956d73a28106/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body  id="page-mod-quiz-review" class="format-topics  path-mod path-mod-quiz chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam kursusvmlepkom-gunadarma-ac-id pagelayout-incourse course-2167 context-324977 cmid-106167 category-639 ">
+
+<div id="page-wrapper" class="d-print-block">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script src="https://kursusvmlepkom.gunadarma.ac.id/lib/javascript.php/1650446552/lib/mdn-polyfills/polyfill.js"></script>
+<script src="https://kursusvmlepkom.gunadarma.ac.id/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://kursusvmlepkom.gunadarma.ac.id/lib/javascript.php/1650446552/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <nav class="fixed-top navbar navbar-light bg-white navbar-expand moodle-has-zindex" aria-label="Site navigation">
+    
+            <div data-region="drawer-toggle" class="d-inline-block mr-3">
+                <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  ></i><span class="sr-only">Side panel</span></button>
+            </div>
+    
+            <a href="https://kursusvmlepkom.gunadarma.ac.id" class="navbar-brand has-logo
+                    ">
+                    <span class="logo d-none d-sm-inline">
+                        <img src="https://kursusvmlepkom.gunadarma.ac.id/pluginfile.php/1/core_admin/logocompact/100x100/1650446552/logo.png" alt="E-Course LePKom Universitas Gunadarma">
+                    </span>
+                <span class="site-name d-none d-md-inline">E-Course LePKom Universitas Gunadarma</span>
+            </a>
+    
+            <ul class="navbar-nav d-none d-md-flex">
+                <!-- custom_menu -->
+                
+                <!-- page_heading_menu -->
+                
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+                <li class="d-none d-lg-block">
+                    
+                </li>
+                <!-- navbar_plugin_output -->
+                <li class="nav-item">
+                    <div class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="28295"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        role="button"
+        aria-controls="popover-region-container-62c55932b8cfc62c55932afbbd4"
+        aria-haspopup="true"
+        aria-label="Show notification window with no new notifications"
+        tabindex="0">
+                <i class="icon fa fa-bell fa-fw "  title="Toggle notifications menu" aria-label="Toggle notifications menu"></i>
+        <div class="count-container hidden" data-region="count-container"
+        aria-label="There are 0 unread notifications">0</div>
+
+    </div>
+    <div 
+        id="popover-region-container-62c55932b8cfc62c55932afbbd4"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Notification window"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notifications</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button"
+           href="#"
+           title="Mark all as read"
+           data-action="mark-all-read"
+           role="button">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw "  title="Mark all as read" aria-label="Mark all as read"></i></span>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
+        </a>
+        <a href="https://kursusvmlepkom.gunadarma.ac.id/message/notificationpreferences.php?userid=28295"
+           title="Notification preferences">
+            <i class="icon fa fa-cog fa-fw "  title="Notification preferences" aria-label="Notification preferences"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">You have no notifications</div>
+
+            </div>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://kursusvmlepkom.gunadarma.ac.id/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div>
+                </li>
+                <!-- user_menu -->
+                <li class="nav-item d-flex align-items-center">
+                    <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items d-inline" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex " id="action-menu-1-menubar" role="menubar">
+
+            
+
+
+                <div class="action-menu-trigger">
+                    <div class="dropdown">
+                        <a href="#" tabindex="0" class=" dropdown-toggle icon-no-margin" id="action-menu-toggle-1" aria-label="User menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
+                            
+                            <span class="userbutton"><span class="usertext mr-1">ALI AKBAR SAID 1IA14 50421119</span><span class="avatars"><span class="avatar current"><img src="https://kursusvmlepkom.gunadarma.ac.id/theme/image.php/boost/core/1650446552/u/f2" class="userpicture defaultuserpic" width="35" height="35" aria-hidden="true" /></span></span></span>
+                                
+                            <b class="caret"></b>
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+                                        <a href="https://kursusvmlepkom.gunadarma.ac.id/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1">
+                                                <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
+                                            <span class="menu-action-text" id="actionmenuaction-1">
+                                                Dashboard
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://kursusvmlepkom.gunadarma.ac.id/user/profile.php?id=28295" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2">
+                                                <i class="icon fa fa-user fa-fw " aria-hidden="true"  ></i>
+                                            <span class="menu-action-text" id="actionmenuaction-2">
+                                                Profile
+                                            </span>
+                                        </a>
+                                        <a href="https://kursusvmlepkom.gunadarma.ac.id/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3">
+                                                <i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>
+                                            <span class="menu-action-text" id="actionmenuaction-3">
+                                                Grades
+                                            </span>
+                                        </a>
+                                        <a href="https://kursusvmlepkom.gunadarma.ac.id/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-4">
+                                                <i class="icon fa fa-wrench fa-fw " aria-hidden="true"  ></i>
+                                            <span class="menu-action-text" id="actionmenuaction-4">
+                                                Preferences
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                        <a href="https://kursusvmlepkom.gunadarma.ac.id/login/logout.php?sesskey=ELOcwqSeCt" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-5">
+                                                <i class="icon fa fa-sign-out fa-fw " aria-hidden="true"  ></i>
+                                            <span class="menu-action-text" id="actionmenuaction-5">
+                                                Log out
+                                            </span>
+                                        </a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div></div>
+                </li>
+            </ul>
+            <!-- search_box -->
+    </nav>
+    
+    <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
+        <nav class="list-group" aria-label="1FDBR181323K - FUNDAMENTAL DBMS">
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">1FDBR181323K - FUNDAMENTAL DBMS</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/badges/view.php?type=2&amp;id=2167" data-key="badgesview" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-shield fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">Badges</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/admin/tool/lp/coursecompetencies.php?courseid=2167" data-key="competencies" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-check-square-o fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">Competencies</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/grade/report/index.php?id=2167" data-key="grades" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">Grades</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167#section-0" data-key="28559" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">General</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167#section-1" data-key="28561" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">Link Download</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167#section-2" data-key="28563" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">PERTEMUAN 1</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167#section-3" data-key="28565" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">PERTEMUAN 2</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167#section-4" data-key="28567" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">PERTEMUAN 3</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167#section-5" data-key="28569" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">PERTEMUAN 4</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167#section-6" data-key="28571" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">PERTEMUAN 5</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167#section-7" data-key="28573" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">PERTEMUAN 6</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167#section-8" data-key="28575" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">PERTEMUAN 7</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167#section-9" data-key="28577" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">PERTEMUAN 8</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action active " href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167#section-10" data-key="28579" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="2167">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-folder-o fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body font-weight-bold">UJIAN</span>
+                    </div>
+                </div>
+            </a>
+        </nav>
+        <nav class="list-group mt-1" aria-label="Site">
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="1" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-home fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">Home</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/my/" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="home">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-tachometer fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">Dashboard</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/calendar/view.php?view=month&amp;course=2167" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-calendar fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">Calendar</span>
+                    </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/user/files.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-file-o fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">Private files</span>
+                    </div>
+                </div>
+            </a>
+            <div class="list-group-item " data-key="mycourses" data-isexpandable="1" data-indent="0" data-showdivider="0" data-type="0" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="home">
+                <div class="ml-0">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body">My courses</span>
+                    </div>
+                </div>
+            </div>
+            <a class="list-group-item list-group-item-action  " href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167" data-key="2167" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="ml-1">
+                    <div class="media">
+                        <span class="media-left">
+                            <i class="icon fa fa-graduation-cap fa-fw " aria-hidden="true"  ></i>
+                        </span>
+                        <span class="media-body ">1FDBR181323K - FUNDAMENTAL DBMS</span>
+                    </div>
+                </div>
+            </a>
+        </nav>
+    </div>
+
+    <div id="page" class="container-fluid d-print-block">
+        <header id="page-header" class="row">
+    <div class="col-12 pt-3 pb-3">
+        <div class="card ">
+            <div class="card-body ">
+                <div class="d-flex">
+                    <div class="mr-auto">
+                        <div class="page-context-header"><div class="page-header-headings"><h1>1FDBR181323K - FUNDAMENTAL DBMS</h1></div></div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div id="page-navbar">
+                        <nav aria-label="Navigation bar">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="https://kursusvmlepkom.gunadarma.ac.id/"  >Home</a>
+                </li>
+                <li class="breadcrumb-item">My courses</li>
+                <li class="breadcrumb-item">
+                    <a href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167"  title="1FDBR181323K - FUNDAMENTAL DBMS">1FDBR181323K - FUNDAMENTAL DBMS</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167#section-10"  >UJIAN</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="https://kursusvmlepkom.gunadarma.ac.id/mod/quiz/view.php?id=106167" aria-current="page" title="Quiz">UJIAN 3</a>
+                </li>
+    </ol>
+</nav>
+                    </div>
+                    <div class="ml-auto d-flex">
+                        
+                    </div>
+                    <div id="course-header">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div id="page-content" class="row pb-3 d-print-block">
+            <div id="region-main-box" class="col-12">
+                <section id="region-main" class="has-blocks mb-3" aria-label="Content">
+
+                    <span class="notifications" id="user-notifications"></span>
+                    <div role="main"><span id="maincontent"></span><table class="generaltable generalbox quizreviewsummary"><tbody><tr><th class="cell" scope="row">Started on</th><td class="cell">Wednesday, 6 July 2022, 4:23 PM</td></tr><tr><th class="cell" scope="row">State</th><td class="cell">Finished</td></tr><tr><th class="cell" scope="row">Completed on</th><td class="cell">Wednesday, 6 July 2022, 4:43 PM</td></tr><tr><th class="cell" scope="row">Time taken</th><td class="cell">19 mins 56 secs</td></tr><tr><th class="cell" scope="row">Marks</th><td class="cell">2.00/2.00</td></tr><tr><th class="cell" scope="row">Grade</th><td class="cell"><b>10.00</b> out of 10.00 (<b>100</b>%)</td></tr></tbody></table><form action="https://kursusvmlepkom.gunadarma.ac.id/mod/quiz/review.php?attempt=831745&amp;cmid=106167" method="post" class="questionflagsaveform"><div><div id="question-833061-2" class="que match deferredfeedback correct"><div class="info"><h3 class="no">Question <span class="qno">1</span></h3><div class="state">Correct</div><div class="grade">Mark 1.00 out of 1.00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive"><input type="hidden" name="q833061:2_:flagged" value="0" /><input type="checkbox" id="q833061:2_:flaggedcheckbox" name="q833061:2_:flagged" value="1" /><input type="hidden" value="qaid=12250781&amp;qubaid=833061&amp;qid=8605297&amp;slot=2&amp;checksum=eb7a0fe95230f6f779b6ccc65b63eee5&amp;sesskey=ELOcwqSeCt&amp;newstate=" class="questionflagpostdata" /><label id="q833061:2_:flaggedlabel" for="q833061:2_:flaggedcheckbox"><img src="https://kursusvmlepkom.gunadarma.ac.id/theme/image.php/boost/core/1650446552/i/unflagged" alt="Not flagged" class="questionflagimage" id="q833061:2_:flaggedimg" /><span>Flag question</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Question text</h4><input type="hidden" name="q833061:2_:sequencecheck" value="3" /><div class="qtext"><p>Silahkan pilih salah satu jawaban</p></div><div class="ablock"><table class="answer"><tbody><tr class="r0"><td class="text"><p>Mengubah struktur tabel dengan mengubah ukuran dari kolom Gaji tabel Employee &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; menjadi 25</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub0">Answer 1</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub0" name="q833061:2_sub0"><option value="0">Choose...</option><option selected="selected" value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Tipe data pada SQL yang menyatakan data berupa tanggal adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub1">Answer 2</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub1" name="q833061:2_sub1"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option selected="selected" value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Perintah ALTER dan DROP termasuk kategori SQL</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub2">Answer 3</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub2" name="q833061:2_sub2"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option selected="selected" value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Mengubah data kolom Gaji pada tabel Employee menjadi 25000</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub3">Answer 4</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub3" name="q833061:2_sub3"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option selected="selected" value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Perintah untuk mengubah nilai suatu data yang ada pada suatu table&nbsp;</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub4">Answer 5</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub4" name="q833061:2_sub4"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option selected="selected" value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Perintah SQL untuk menghapus tabel dan database adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub5">Answer 6</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub5" name="q833061:2_sub5"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option selected="selected" value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Tipe data pada SQL yang menyatakan data berupa angka hingga 32767 adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub6">Answer 7</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub6" name="q833061:2_sub6"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option selected="selected" value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Atribut atau satu set minimal atribut yang hanya mengidentifikasikan secara unik untuk suatu kejadian spesifik dari entitas adalah&nbsp;</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub7">Answer 8</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub7" name="q833061:2_sub7"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option selected="selected" value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Suatu atribut atau satu set minimal atribut yang tidak hanya</p>
+<p>mendefinisikan secara unik suatu kejadian spesifik tetapi juga dapat mewakili setiap kejadian dari suatu kejadian adalah.</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub8">Answer 9</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub8" name="q833061:2_sub8"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option selected="selected" value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Mengubah struktur tabel dengan menambahkan kolom Gaji dengan tipe data number pada tabel Employee</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub9">Answer 10</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub9" name="q833061:2_sub9"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option selected="selected" value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Tipe data pada SQL yang menyatakan data berupa karakter/string adalah....</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub10">Answer 11</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub10" name="q833061:2_sub10"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option selected="selected" value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Kategori SQL apakah perintah INSERT dan DELETE</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub11">Answer 12</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub11" name="q833061:2_sub11"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option selected="selected" value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Perintah SQL untuk memasukan/menambahkan data adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub12">Answer 13</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub12" name="q833061:2_sub12"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option selected="selected" value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Menampilkan data kolom Client, Project_Owner dari tabel Projects yang mempunyai Cost lebih besar dari 400000</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub13">Answer 14</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub13" name="q833061:2_sub13"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option selected="selected" value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Perintah untuk menghapus data dalam tabel adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub14">Answer 15</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub14" name="q833061:2_sub14"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option selected="selected" value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Perintah untuk menjalankan SQL pada SQL Server Management Studio adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub15">Answer 16</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub15" name="q833061:2_sub15"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option selected="selected" value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Perintah SQL untuk menampilkan data tertentu adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub16">Answer 17</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub16" name="q833061:2_sub16"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option selected="selected" value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>DDL adalah singkatan dari</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub17">Answer 18</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub17" name="q833061:2_sub17"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option selected="selected" value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Menampilkan data kolom Client, Project_Owner dari tabel Projects yang mempunyai Cost lebih besar dari 400000</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub18">Answer 19</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub18" name="q833061:2_sub18"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option selected="selected" value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Perintah memanipulasi data</p></td><td class="control correct"><label class="accesshide" for="menuq833061:2_sub19">Answer 20</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:2_sub19" name="q833061:2_sub19"><option value="0">Choose...</option><option value="1">Alter table Employee modify (Gaji number(25))</option><option value="2">Candidate Key</option><option value="3">char</option><option value="4">SELECT</option><option value="5">Execute / F5</option><option value="6">DML</option><option value="7">Update</option><option value="8">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="9">insert</option><option value="10">Update table Employee set Gaji=25000</option><option value="11">SMALLINT</option><option value="12">Alter table Employee add (Gaji number(20))</option><option value="13">delete</option><option value="14">Data Definition Language</option><option selected="selected" value="15">Data Manipulation Language</option><option value="16">Primary Key</option><option value="17">DDL</option><option value="18">DROP</option><option value="19">date</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr></tbody></table></div></div><div class="outcome clearfix"><h4 class="accesshide">Feedback</h4><div class="feedback"><div class="rightanswer">The correct answer is: Mengubah struktur tabel dengan mengubah ukuran dari kolom Gaji tabel Employee &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; menjadi 25 &#x2192; Alter table Employee modify (Gaji number(25)), Tipe data pada SQL yang menyatakan data berupa tanggal adalah &#x2192; date, Perintah ALTER dan DROP termasuk kategori SQL &#x2192; DDL, Mengubah data kolom Gaji pada tabel Employee menjadi 25000 &#x2192; Update table Employee set Gaji=25000, Perintah untuk mengubah nilai suatu data yang ada pada suatu table&nbsp; &#x2192; Update, Perintah SQL untuk menghapus tabel dan database adalah &#x2192; DROP, Tipe data pada SQL yang menyatakan data berupa angka hingga 32767 adalah &#x2192; SMALLINT, Atribut atau satu set minimal atribut yang hanya mengidentifikasikan secara unik untuk suatu kejadian spesifik dari entitas adalah&nbsp; &#x2192; Candidate Key, Suatu atribut atau satu set minimal atribut yang tidak hanya<br />mendefinisikan secara unik suatu kejadian spesifik tetapi juga dapat mewakili setiap kejadian dari suatu kejadian adalah. &#x2192; Primary Key, Mengubah struktur tabel dengan menambahkan kolom Gaji dengan tipe data number pada tabel Employee &#x2192; Alter table Employee add (Gaji number(20)), Tipe data pada SQL yang menyatakan data berupa karakter/string adalah.... &#x2192; char, Kategori SQL apakah perintah INSERT dan DELETE &#x2192; DML, Perintah SQL untuk memasukan/menambahkan data adalah &#x2192; insert, Menampilkan data kolom Client, Project_Owner dari tabel Projects yang mempunyai Cost lebih besar dari 400000 &#x2192; Select Client, Project_Owner From Projects Where Cost &gt; 400000, Perintah untuk menghapus data dalam tabel adalah &#x2192; delete, Perintah untuk menjalankan SQL pada SQL Server Management Studio adalah &#x2192; Execute / F5, Perintah SQL untuk menampilkan data tertentu adalah &#x2192; SELECT, DDL adalah singkatan dari &#x2192; Data Definition Language, Menampilkan data kolom Client, Project_Owner dari tabel Projects yang mempunyai Cost lebih besar dari 400000 &#x2192; Select Client, Project_Owner From Projects Where Cost &gt; 400000, Perintah memanipulasi data &#x2192; Data Manipulation Language</div></div></div></div></div><div id="question-833061-1" class="que match deferredfeedback correct"><div class="info"><h3 class="no">Question <span class="qno">2</span></h3><div class="state">Correct</div><div class="grade">Mark 1.00 out of 1.00</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive"><input type="hidden" name="q833061:1_:flagged" value="0" /><input type="checkbox" id="q833061:1_:flaggedcheckbox" name="q833061:1_:flagged" value="1" /><input type="hidden" value="qaid=12250779&amp;qubaid=833061&amp;qid=8605295&amp;slot=1&amp;checksum=7d614285a6dfa6a1c60613d8b5559289&amp;sesskey=ELOcwqSeCt&amp;newstate=" class="questionflagpostdata" /><label id="q833061:1_:flaggedlabel" for="q833061:1_:flaggedcheckbox"><img src="https://kursusvmlepkom.gunadarma.ac.id/theme/image.php/boost/core/1650446552/i/unflagged" alt="Not flagged" class="questionflagimage" id="q833061:1_:flaggedimg" /><span>Flag question</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Question text</h4><input type="hidden" name="q833061:1_:sequencecheck" value="3" /><div class="qtext"><p>Silahkan Pilih Jawaban yg benar</p></div><div class="ablock"><table class="answer"><tbody><tr class="r0"><td class="text"><p>Perintah DCL yang berfungsi untuk mencabut hak akses terhadap sebuah objek dari sebuah database adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub0">Answer 1</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub0" name="q833061:1_sub0"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option selected="selected" value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Mengubah struktur tabel dengan mengubah ukuran dari kolom Gaji tabel Employee menjadi 25</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub1">Answer 2</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub1" name="q833061:1_sub1"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option selected="selected" value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Grup function untuk mencari nilai maksimum dari sekumpulan data adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub2">Answer 3</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub2" name="q833061:1_sub2"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option selected="selected" value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Sekumpulan nilai yang diijinkan untuk satu atau lebih atribut disebu</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub3">Answer 4</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub3" name="q833061:1_sub3"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option selected="selected" value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Tipe data pada SQL yang menyatakan data berupa tanggal adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub4">Answer 5</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub4" name="q833061:1_sub4"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option selected="selected" value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Menampilkan data kolom Client, Project_Owner dari tabel Projects yang mempunyai Cost lebih besar dari 400000</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub5">Answer 6</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub5" name="q833061:1_sub5"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option selected="selected" value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Perintah SELECT dasar selalu diikuti oleh klausa</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub6">Answer 7</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub6" name="q833061:1_sub6"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option selected="selected" value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Klausa kondisi yang disertakan pada perintah SELECT adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub7">Answer 8</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub7" name="q833061:1_sub7"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option selected="selected" value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Tipe data pada SQL yang menyatakan data berupa karakter/string adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub8">Answer 9</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub8" name="q833061:1_sub8"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option selected="selected" value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>&nbsp;Perintah SQL untuk menampilkan data tertentu adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub9">Answer 10</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub9" name="q833061:1_sub9"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option selected="selected" value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p><span lang="EN-US">Sekumpulan data yang terintegrasi yang diorganisasikan untuk memenuhi kebutuhan para pemakai di dalam suatu organisasi disebut</span></p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub10">Answer 11</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub10" name="q833061:1_sub10"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option selected="selected" value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Perintah yang digunakan untuk menambahkan sebuah constraint pada tabel adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub11">Answer 12</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub11" name="q833061:1_sub11"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option selected="selected" value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>SQL Server Management Studio terbagi kedalam 2 frame&nbsp; yang berisikan objek-objek dalam SQL Server yang berbentuk seperti windows explorer disebut</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub12">Answer 13</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub12" name="q833061:1_sub12"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option selected="selected" value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Tanda yang dipakai untuk menampilkan semua kolom dalam sebuah tabel adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub13">Answer 14</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub13" name="q833061:1_sub13"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option selected="selected" value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Mengubah data kolom Gaji pada tabel Employee menjadi 25000</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub14">Answer 15</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub14" name="q833061:1_sub14"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option selected="selected" value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>&nbsp;Perintah DCL yang berfungsi untuk memberikan hak akses terhadap sebuah objek dari sebuah database adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub15">Answer 16</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub15" name="q833061:1_sub15"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option selected="selected" value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Perintah INSERT selalu diikuti oleh klausa</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub16">Answer 17</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub16" name="q833061:1_sub16"><option value="0">Choose...</option><option selected="selected" value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Ketika membuat sebuah database pada SQL Server, secara default akan terbentuk dua buah file. Extension file yang merupakan log data file adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub17">Answer 18</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub17" name="q833061:1_sub17"><option value="0">Choose...</option><option value="1">INTO</option><option selected="selected" value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r0"><td class="text"><p>Tipe data pada SQL yang menyatakan data berupa angka hingga 32767 adalah</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub18">Answer 19</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub18" name="q833061:1_sub18"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option selected="selected" value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr><tr class="r1"><td class="text"><p>Tipe data integer dengan kapasitas angka terbanyak pada mysql yaitu</p></td><td class="control correct"><label class="accesshide" for="menuq833061:1_sub19">Answer 20</label><select disabled="disabled" class="select custom-select custom-select ml-1" id="menuq833061:1_sub19" name="q833061:1_sub19"><option value="0">Choose...</option><option value="1">INTO</option><option value="2">LDF</option><option value="3">REVOKE</option><option value="4">Asterik  / *</option><option value="5">SMALLINT</option><option value="6">DATABASE</option><option value="7">Alter table Employee modify (Gaji number(25))</option><option value="8">WHERE</option><option value="9">Object Explorer</option><option value="10">MAX</option><option value="11">Update table Employee set Gaji=25000</option><option value="12">Select Client, Project_Owner From Projects Where Cost &gt; 400000</option><option value="13">DOMAIN</option><option value="14">SELECT</option><option value="15">GRANT</option><option selected="selected" value="16">longint</option><option value="17">DATE</option><option value="18">CHAR</option><option value="19">FROM</option><option value="20">ALTER</option></select> <i class="icon fa fa-check text-success fa-fw "  title="Correct" aria-label="Correct"></i></td></tr></tbody></table></div></div><div class="outcome clearfix"><h4 class="accesshide">Feedback</h4><div class="feedback"><div class="rightanswer">The correct answer is: Perintah DCL yang berfungsi untuk mencabut hak akses terhadap sebuah objek dari sebuah database adalah &#x2192; REVOKE, Mengubah struktur tabel dengan mengubah ukuran dari kolom Gaji tabel Employee menjadi 25 &#x2192; Alter table Employee modify (Gaji number(25)), Grup function untuk mencari nilai maksimum dari sekumpulan data adalah &#x2192; MAX, Sekumpulan nilai yang diijinkan untuk satu atau lebih atribut disebu &#x2192; DOMAIN, Tipe data pada SQL yang menyatakan data berupa tanggal adalah &#x2192; DATE, Menampilkan data kolom Client, Project_Owner dari tabel Projects yang mempunyai Cost lebih besar dari 400000 &#x2192; Select Client, Project_Owner From Projects Where Cost &gt; 400000, Perintah SELECT dasar selalu diikuti oleh klausa &#x2192; FROM, Klausa kondisi yang disertakan pada perintah SELECT adalah &#x2192; WHERE, Tipe data pada SQL yang menyatakan data berupa karakter/string adalah &#x2192; CHAR, &nbsp;Perintah SQL untuk menampilkan data tertentu adalah &#x2192; SELECT, <span lang="EN-US">Sekumpulan data yang terintegrasi yang diorganisasikan untuk memenuhi kebutuhan para pemakai di dalam suatu organisasi disebut</span> &#x2192; DATABASE, Perintah yang digunakan untuk menambahkan sebuah constraint pada tabel adalah &#x2192; ALTER, SQL Server Management Studio terbagi kedalam 2 frame&nbsp; yang berisikan objek-objek dalam SQL Server yang berbentuk seperti windows explorer disebut &#x2192; Object Explorer, Tanda yang dipakai untuk menampilkan semua kolom dalam sebuah tabel adalah &#x2192; Asterik  / *, Mengubah data kolom Gaji pada tabel Employee menjadi 25000 &#x2192; Update table Employee set Gaji=25000, &nbsp;Perintah DCL yang berfungsi untuk memberikan hak akses terhadap sebuah objek dari sebuah database adalah &#x2192; GRANT, Perintah INSERT selalu diikuti oleh klausa &#x2192; INTO, Ketika membuat sebuah database pada SQL Server, secara default akan terbentuk dua buah file. Extension file yang merupakan log data file adalah &#x2192; LDF, Tipe data pada SQL yang menyatakan data berupa angka hingga 32767 adalah &#x2192; SMALLINT, Tipe data integer dengan kapasitas angka terbanyak pada mysql yaitu &#x2192; longint</div></div></div></div></div><input type="hidden" name="sesskey" value="ELOcwqSeCt" /><div class="submitbtns"><input type="submit" class="questionflagsavebutton btn btn-secondary" name="savingflags" value="Save the state of the flags" /></div></div></form><div class="submitbtns"><a class="mod_quiz-next-nav" href="https://kursusvmlepkom.gunadarma.ac.id/mod/quiz/view.php?id=106167">Finish review</a></div></div>
+                    <div class="mt-5 mb-1 activity-navigation">
+<div class="row">
+    <div class="col-md-4">        <div class="float-left">
+                <a href="https://kursusvmlepkom.gunadarma.ac.id/mod/quiz/view.php?id=106165&forceview=1" id="prev-activity-link" class="btn btn-link"  title="UJIAN 2" >&#x25C4; UJIAN 2</a>
+
+        </div>
+</div>
+    <div class="col-md-4">        <div class="mdl-align">
+            <div class="urlselect">
+    <form method="post" action="https://kursusvmlepkom.gunadarma.ac.id/course/jumpto.php" class="form-inline" id="url_select_f62c55932afbbd12">
+        <input type="hidden" name="sesskey" value="ELOcwqSeCt">
+            <label for="jump-to-activity" class="sr-only">
+                Jump to...
+            </label>
+        <select  id="jump-to-activity" class="custom-select urlselect" name="jump"
+                 >
+                    <option value="" selected>Jump to...</option>
+                    <option value="/mod/forum/view.php?id=106085&amp;forceview=1" >Forum Tanya-Jawab</option>
+                    <option value="/mod/page/view.php?id=106089&amp;forceview=1" >Ketentuan penggunaan Virtual Machine (VM) dan Installer Software Kursus</option>
+                    <option value="/mod/url/view.php?id=106091&amp;forceview=1" >Master Virtual Mesin (VM) G</option>
+                    <option value="/mod/url/view.php?id=106093&amp;forceview=1" >Master Installer Software G</option>
+                    <option value="/mod/quiz/view.php?id=106163&amp;forceview=1" >UJIAN 1</option>
+                    <option value="/mod/quiz/view.php?id=106165&amp;forceview=1" >UJIAN 2</option>
+        </select>
+            <noscript>
+                <input type="submit" class="btn btn-secondary ml-1" value="Go">
+            </noscript>
+    </form>
+</div>
+
+        </div>
+</div>
+    <div class="col-md-4">        <div class="float-right">
+            
+        </div>
+</div>
+</div>
+</div>
+                    
+
+                </section>
+                <section data-region="blocks-column" class="d-print-none" aria-label="Blocks">
+                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-1" class="sr-only sr-only-focusable">Skip &lt;span id=&quot;mod_quiz_navblock_title&quot;&gt;Quiz navigation&lt;/span&gt;</a>
+
+<section id="mod_quiz_navblock"
+     class=" block block_fake  card mb-3"
+     role="navigation"
+     data-block="_fake"
+          aria-labelledby="instance-fakeid-62c55932b08b7-header"
+     >
+
+    <div class="card-body p-3">
+
+            <h5 id="instance-fakeid-62c55932b08b7-header" class="card-title d-inline"><span id="mod_quiz_navblock_title">Quiz navigation</span></h5>
+
+
+        <div class="card-text content mt-3">
+            <div class="qn_buttons clearfix allquestionsononepage"><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton2" title="Correct" data-quiz-page="0" href="#"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Question </span>1<span class="accesshide"> This page <span class="flagstate"></span></span></a><a class="qnbutton correct free btn btn-secondary thispage" id="quiznavbutton1" title="Correct" data-quiz-page="0" href="#question-833061-1"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Question </span>2<span class="accesshide"> This page <span class="flagstate"></span></span></a></div><div class="othernav"><a class="mod_quiz-next-nav" href="https://kursusvmlepkom.gunadarma.ac.id/mod/quiz/view.php?id=106167">Finish review</a></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-1"></span></aside>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+    <footer id="page-footer" class="py-3 bg-dark text-light">
+        <div class="container">
+            <div id="course-footer"></div>
+    
+    
+            <div class="logininfo">You are logged in as <a href="https://kursusvmlepkom.gunadarma.ac.id/user/profile.php?id=28295" title="View profile">ALI AKBAR SAID 1IA14 50421119</a> (<a href="https://kursusvmlepkom.gunadarma.ac.id/login/logout.php?sesskey=ELOcwqSeCt">Log out</a>)</div>
+            <div class="tool_usertours-resettourcontainer"></div>
+            <div class="homelink"><a href="https://kursusvmlepkom.gunadarma.ac.id/course/view.php?id=2167">1FDBR181323K - FUNDAMENTAL DBMS</a></div>
+            <nav class="nav navbar-nav d-md-none" aria-label="Custom menu">
+                    <ul class="list-unstyled pt-3">
+                    </ul>
+            </nav>
+            
+            <script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://kursusvmlepkom.gunadarma.ac.id/lib/requirejs.php/1650446552/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://kursusvmlepkom.gunadarma.ac.id/lib/javascript.php/1650446552/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://kursusvmlepkom.gunadarma.ac.id/lib/javascript.php/1650446552/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://kursusvmlepkom.gunadarma.ac.id/lib/javascript.php/1650446552/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://kursusvmlepkom.gunadarma.ac.id/lib/javascript.php/1650446552/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://kursusvmlepkom.gunadarma.ac.id/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Audio Player": "Audio Player",
+ "Video Player": "Video Player",
+ "Play": "Play",
+ "Pause": "Pause",
+ "Replay": "Replay",
+ "Current Time": "Current Time",
+ "Duration Time": "Duration Time",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Progress Bar": "Progress Bar",
+ "progress bar timing: currentTime={1} duration={2}": "{1} of {2}",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "Volume Level": "Volume Level",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected",
+ "captions settings": "captions settings",
+ "subtitles settings": "subititles settings",
+ "descriptions settings": "descriptions settings",
+ "Text": "Text",
+ "White": "White",
+ "Black": "Black",
+ "Red": "Red",
+ "Green": "Green",
+ "Blue": "Blue",
+ "Yellow": "Yellow",
+ "Magenta": "Magenta",
+ "Cyan": "Cyan",
+ "Background": "Background",
+ "Window": "Window",
+ "Transparent": "Transparent",
+ "Semi-Transparent": "Semi-Transparent",
+ "Opaque": "Opaque",
+ "Font Size": "Font Size",
+ "Text Edge Style": "Text Edge Style",
+ "None": "None",
+ "Raised": "Raised",
+ "Depressed": "Depressed",
+ "Uniform": "Uniform",
+ "Dropshadow": "Dropshadow",
+ "Font Family": "Font Family",
+ "Proportional Sans-Serif": "Proportional Sans-Serif",
+ "Monospace Sans-Serif": "Monospace Sans-Serif",
+ "Proportional Serif": "Proportional Serif",
+ "Monospace Serif": "Monospace Serif",
+ "Casual": "Casual",
+ "Script": "Script",
+ "Small Caps": "Small Caps",
+ "Reset": "Reset",
+ "restore all settings to the default values": "restore all settings to the default values",
+ "Done": "Done",
+ "Caption Settings Dialog": "Caption Settings Dialog",
+ "Beginning of dialog window. Escape will cancel and close the window.": "Beginning of dialog window. Escape will cancel and close the window.",
+ "End of dialog window.": "End of dialog window."
+});
+
+    });
+});;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+        require(['jquery'], function($) {
+            $('#jump-to-activity').change(function() {
+                if (!$(this).val()) {
+                    return false;
+                }
+                $('#url_select_f62c55932afbbd12').submit();
+            });
+        });
+    ;
+
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader'], function() {
+  M.util.js_complete('theme_boost/loader');
+});
+M.util.js_pending('theme_boost/drawer');
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+  M.util.js_complete('theme_boost/drawer');
+});
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(324977, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.yui.add_module({"core_question_engine":{"name":"core_question_engine","fullpath":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/lib\/javascript.php\/1650446552\/question\/qengine.js","requires":["node","event"]},"mod_quiz":{"name":"mod_quiz","fullpath":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/lib\/javascript.php\/1650446552\/mod\/quiz\/module.js","requires":["base","dom","event-delegate","event-key","core_question_engine","moodle-core-formchangechecker"]}});
+
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","changesmadereallygoaway":"You have made changes. Are you sure you want to navigate away and lose your changes?","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"},"question":{"flagged":"Flagged"},"quiz":{"functiondisabledbysecuremode":"That functionality is currently disabled","startattempt":"Start attempt","timesup":"Time is up!"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+ M.util.js_pending('random62c55932afbbd1'); Y.use('core_question_flags', function(Y) { M.core_question_flags.init(Y, "https:\/\/kursusvmlepkom.gunadarma.ac.id\/question\/toggleflag.php", [{"src":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/theme\/image.php\/boost\/core\/1650446552\/i\/unflagged","title":"Flag this question for future reference","alt":"Not flagged"},{"src":"https:\/\/kursusvmlepkom.gunadarma.ac.id\/theme\/image.php\/boost\/core\/1650446552\/i\/flagged","title":"Remove flag","alt":"Flagged"}], ["Flag question","Remove flag"]);  M.util.js_complete('random62c55932afbbd1'); });
+ M.util.js_pending('random62c55932afbbd2'); Y.use('mod_quiz', function(Y) { M.mod_quiz.nav.init(Y);  M.util.js_complete('random62c55932afbbd2'); });
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random62c55932afbbd13'); Y.use('mod_quiz', function(Y) { M.mod_quiz.init_review_form(Y);  M.util.js_complete('random62c55932afbbd13'); });
+ M.util.js_pending('random62c55932afbbd14'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random62c55932afbbd14'); });
+})();
+//]]>
+</script>
+
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
